@@ -1,0 +1,31 @@
+# --- Python Environments ---
+venv/
+env/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# --- Secrets & Config ---
+.env
+.env.local
+.env.*.local
+*.pem
+
+# --- Database ---
+*.sqlite3
+*.db
+
+# --- THE VAULT (Private Transit Data) ---
+data/
+gtfs/
+*.osm.pbf
+*.zip
+*.geojson 
+
+# --- IDEs and OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
